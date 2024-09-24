@@ -3,159 +3,464 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Scamazon</title>
 </head>
 <body>
     <header class="header" id="header">
-        <section class="section" id="section1"></section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <h1 class="logo text-capitalize" id="logo">Scamazon</h1>
-            </div>
-                <div class="col-sm-7">
-                    <form action="#" class="form form-floating">
-                    <input 
-                    type="search"
-                    class="form-control" 
-                    id="searchForm"
-                    placeholder="Search"
-                    />
-                    <label for="SearchForm">Search</label>
-                </form>
-    
-                </div>
-                <div class="col-sm-3">
-                    <nav class="nav justify-content-end" id="headernav">
-                        <a href="#" class="nav-link">lorem</a>
-                        <a href="#" class="nav-link">Vero</a>
-                        <a href="#" class="nav-link">lorem</a>
-                    </nav>
-                </div>
-                <col>
-            </div>
-            
-        <section class="section" id="section2"></section>
-        <div class="container-fluid">
-        <div class="row">
-        <nav class="navbar navbar-expand-lg">
+        <section class="section" id="section1">
             <div class="container-fluid">
-                <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#topNavebar"
-                aria-controls="topNavbar"
-                aria-expand="false"
-                aria-label="Toggle navigation"
-                >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="topNavbar">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown"> 
-                    <a href="#" class="nav-link navbar-link dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">Jewelry
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#" 
-                            class="dropdown-item">Rings</a>
-                        </li>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h1 class="logo text-capitalize" id="logo">Scamazon</h1>
+                    </div>
+                    <div class="col-sm-7">
+                        <form action="#" class="form form-floating">
+                            <input 
+                            type="search"
+                            class="form-control" 
+                            id="searchForm"
+                            placeholder="Search"
+                            />
+                            <label for="SearchForm">Search</label>
+                        </form>
+                    </div>
+                    <div class="col-sm-3">
+                        <nav class="nav justify-content-end" id="headernav">
+                            <a href="#" class="nav-link header-link"> 
+                                <i class="bi bi-telephone-fill"></i>  
+                                <span class="d-none d-lg-inline">Lorem.</span></a>
+                            
+                            <a href="#" class="nav-link header-link">
+                                <i class="bi bi-chat-left-text"></i>
+                                    <span class="d-none d-lg-inline">vero1</span></a>
+                                
 
-                        <li>
-                            <a href="#" 
-                            class="dropdown-item">Bracelets</a>
-                        </li>
-                        <li>
-                            <a href="#" 
-                            class="dropdown-item">Earrings</a>
-                        </li>
-                        <li>
-                            <a href="#" 
-                            class="dropdown-item">Necklaces</a>
-                        </li>
-                        <li>
-                            <a href="#" 
-                            class="dropdown-item">Watches</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Apparel</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Furniture</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Electronics</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Movies</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Cosmetics</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Fragrances</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Herbs</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Tools</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Books</a>
-                </li>
-                <li class="nav-item"> 
-                    <a href="#" class="nav-link navbar-link">Puppies</a>
-                </li>
-            </ul>
-            <form action="#" class="nav-form d-flex" role="search">
-                <input type="search" class="form-control me-2"
-                aria-label="search"
-                />
-                <button class="btn btn-outline-light"
-                type="submit">Search</button>
-            </form>
-        </div>
-        </div>
-    </header>
-
-<main class="main" id="main">
-        <section class="section" id="bannerSection">
-            <div class="container-fluid">
-                <img src="https://via.placeholder.com/50x50" alt="placeholder img"
-                class="img-fluid image banner-image w-100"/>
+                            <a href="#" class="nav-link header-link">
+                            <i class="bi bi-cart4"></i>
+                            <span class="d-none d-md-inline">Lorem.</span>   
+                        </a>         
+                        </nav>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- banner section -->
-        <section class="section" id="leadSection">
+        <section class="section" id="section2">
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#topNavebar"
+                            aria-controls="topNavbar"
+                            aria-expand="false"
+                            aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="topNavbar">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown"> 
+                                        <a 
+                                            href="#" 
+                                            class="nav-link navbar-link dropdown-toggle"
+                                            role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">Jewelry
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#" class="dropdown-item">Rings</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Bracelets</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Earrings</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Necklaces</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Watches</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Apparel</a>
+                                        <div class="src"></div>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Furniture</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Electronics</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Movies</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Cosmetics</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Fragrances</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Herbs</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Tools</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Books</a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a href="#" class="nav-link navbar-link">Puppies</a>
+                                    </li>
+                                </ul>
+                                <form action="#" class="nav-form d-flex" role="search">
+                                    <input 
+                                        type="search" 
+                                        class="form-control me-2"
+                                        aria-label="search" />
+                                    <button class="btn btn-outline-light">search</button>
+                                    <i class="bi bi-search"></i>
+                                    <span class="visually hidden"></span>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main" id="main">
+        <section class="section mb-5" id="bannerSection">
+            <div class="container">
+                <img src="images/herbs.avif" alt="herbs" class="img-fluid image banner-image w-100"/>
+            </div>
+        </section>
+
+        <!-- card section -->
+        <section class="section mb-5" id="leadSection">
             <div class="container">
                 <div class="row">
-                <div class="col-md-3 col-6"></div>
-                <div class="col-md-3 col-6"></div>
-                <div class="col-md-3 col-6"></div>
-                <div class="col-md-3 col-6"></div>
-                <div class="col-md-3 col-6"></div>
-                <div class="col-md-3 col-6"></div>
-            </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card lead-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="images/books.avif" alt="books" class="img-fluid image card-img">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$19.99</p>
+                                <button class="btn btn-primary text-capitalize">add cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card lead-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="images/apparel.avif" alt="apparel" class="img-fluid image card-img">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$19.99</p>
+                                <button class="btn btn-primary text-capitalize">add cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>         
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class=" card led-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="images/tall puppy.avif" alt="puppy" class="img-fluid image card-img">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$19.99</p>
+                                <button class="btn btn-primary text-capitalize">add cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
+                        </div>
+                    </div>
+                        <div class="col-md-3 col-6">
+                            <div class=" card led-items mb-3">
+                                <header class="card-header">
+                                    <h2 class="display-1">Lorem, ipsum.</h2>
+                                </header>
+                                <img src="images/jewelry.avif" alt="jewelry" class="img-fluid image card-img">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-text price">$19.99</p>
+                                    <button class="btn btn-primary text-capitalize">add cart</button>
+                                    <button class="btn btn-warning text-capitalize">buy now</button>
+                                </footer>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- row -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="item-image-div">
+                            <a href="#">
+                                <img src="images/puppies.avif" alt="puppies" class="img-fluid w-100 promo-image image"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class=" card led-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="images/movies.avif" alt="movie tickets" class="img-fluid image card-img">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$19.99</p>
+                                <button class="btn btn-primary text-capitalize">add cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class=" card led-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="images/tools.avif" alt="workk tools" class="img-fluid image card-img">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rerum possimus porro labore et dignissimos harum, sint magni corrupti dolores rem, mollitia magnam facere hic fugit velit non laudantium obcaecati!</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$19.99</p>
+                                <button class="btn btn-primary text-capitalize">add cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
             </div>
         <!-- container -->
-</section>
+        </section>
     <!-- leadsection.section -->
-
-
-</main>
-    <footer class="footer" id="footer"></footer>
+        <section class="section mb-5" id="shoppingSection">
+            <div class="container">
+                <div class="row">
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item d-none d-md-block">
+                            <a href="#">
+                                <img src="images/plant.avif" alt="plant" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item">
+                            <a href="#">
+                                <img src="images/plant2.avif" alt="placeholder img" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item">
+                            <a href="#">
+                                <img src="images/plant3.avif" alt="placeholder img" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item">
+                            <a href="#">
+                                <img src="images/plant4.avif" alt="plant in pot" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item">
+                            <a href="#">
+                                <img src="images/plant5.avif" alt="green plant" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class col-md-2 col-6">
+                        <div class="shopping-section-item">
+                            <a href="#">
+                                <img src="images/plant6.avif" alt="potted plant" class="img-fluid image d-block mx-auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <!-- shoppingSection.section -->
+    </main>
+    <footer class="footer" id="footer">
+        <section class="footer" id="footerSection1">
+            <div class="container-fluid">
+                <p class="footer-sec1-text text-center text-capitalize">
+                    <a href="#header" class="footer-sec1-link">back to top</a>
+                </p>
+            </div>
+        </section>
+        <section class="footer" id="footerSection2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-boxes" id="footerBox1">
+                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-boxes" id="footerBox1">
+                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-boxes" id="footerBox1">
+                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-boxes" id="footerBox1">
+                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item">
+                                <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item"></li>
+                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer" id="footerSection3">
+            <div class="container">
+                <p class="colophon text-center">site by
+                    <a href="mailto:lrush2@outlook.com" target="_blank" class="site-link">love on a 2 way street</a> &copy2024
+        
+                </p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
